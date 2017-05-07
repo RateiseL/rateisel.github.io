@@ -1,0 +1,93 @@
+body{
+    padding-top: 30px;
+    overflow-x: hidden;
+}
+#brand-logo{
+    font-family: 'League Script', cursive; 
+    color:yellow; 
+    font-size:24px; 
+}
+#first-page-container-fluid{
+    height:100vh;
+    background-image:url(../grafika/15304517_1274100769315336_4438873980432363269_o.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    border-bottom: 2px solid black;
+}
+#first-page-container{
+    margin-top:75vh;
+    height:30vh;
+    opacity:0.8;
+}
+#my-navbar{
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    -webkit-box-shadow: 12px 19px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 19px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 32px 0px rgba(0,0,0,0.75);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.web-designer-logo{
+    width:150px;
+    -webkit-filter: grayscale(2);
+    filter: grayscale(2);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    transition-duration:789789s;
+    margin-bottom:5px;
+}
+.web-designer-logo:hover{
+    width:150px;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    transition-duration: 2s;
+
+}
+#jumbotron-second-page{
+height:100vh;
+padding-top:15vh;
+border-bottom:2px solid black;
+}
+#third-page-container{
+    height:100vh;
+
+}
+#third-page-container-fluid{
+    height:125vh;
+    border-bottom:2px solid black;
+    margin-top:-4vh;
+}
+.carousel{
+    max-width:1150px;
+}
+#container-features img{
+  max-width:180px;  
+}
+#container-features{
+    height:110vh;
+}
+#container-fluid-features{
+    height:120vh;
+    border-bottom:3px solid black;
+}
+#container-contact{
+    height:70vh;
+}
+#container-fluid-contact{
+    border-bottom:3px solid black;
+    height:75vh;
+}
+
+.mapa {
+	height: 50vh; 
+  	width: 50vw; 
+  	position:absolute; 
+  	z-index: 0; 
+}
+#map-container-fluid{
+    height:80vh;
+    border-bottom:3px solid black;
+}
